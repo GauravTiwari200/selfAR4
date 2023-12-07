@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+
+    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+
+    <!--
+        Click on this link to create your own markers...
+        https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html
+    -->
+    <style>
+        body{
+            background-image:url("./info/bg.jpg");
+            background-size: cover;    
+        }
+        h1{
+            background-color: black;
+            color:rgb(248, 247, 248) ;
+            padding: 1px;;
+        }
+        button{
+            height: 90px;
+            width: 295px;
+            margin-left: 180px;
+            margin-top: 200px;
+            background-color: transparent;
+
+        }
+    </style>
+
+
+</head>
+
+<body  >
+    <center><h1>Science Zone</h1></center>
+   
+        <button  onclick="window.location.href='mainpage.html';"></button>
+        <!-- 
+            embedded vr-mode-ui="enabled:false" arjs="sourceType:webcam;debugUIEnabled:false;trackingMethod:best"
+            <a-marker type="pattern" src="./assets/patterns/pattern-icon-01.patt">
+                <a-box position="0 0 -1" color="white"></a-box>
+            </a-marker>
+        -->
+
+
+
+</body>
+
+</html>
